@@ -1,0 +1,9 @@
+package day2;
+
+public class Calcurator {
+	int n1;
+	int n2;
+	int result = n1 + n2;
+	
+	
+}

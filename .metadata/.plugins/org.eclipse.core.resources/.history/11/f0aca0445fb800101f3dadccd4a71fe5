@@ -1,0 +1,25 @@
+package day4;
+
+/*
+File --> Path, Files
+*/
+public class PathFilesTest {
+
+	public static void main(String[] args) {
+	
+		Path path = Paths.get("c:/temp");
+		
+		//파일목록
+		Files.walks(path)
+			//.forEach(System.out::println);
+			.forEach(s -> System.out::println(s));
+		
+		//파일명 변경
+		
+		//파일 저장
+		
+		//파일 읽기
+		
+		//파일 삭제
+	}
+}

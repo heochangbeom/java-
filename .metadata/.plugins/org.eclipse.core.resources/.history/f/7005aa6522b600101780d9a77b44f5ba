@@ -1,0 +1,40 @@
+package day3.emp;
+
+import com.sun.tools.javac.util.List;
+
+//테이블 전체 레코드 담기
+//등록, 수정, 삭제, 조회, 전체조회, 정렬
+public class EmployeeList {
+
+	List<Employee> list;
+
+	public EmployeeList(List<Employee> list) {
+		this.list = list;
+	}
+	
+	//전체조회
+	public void selectAll() {
+		for() {
+			System.out.println();
+		}
+	}
+	
+	//등록
+	public void insert(Employee employee) {
+		list.add(employee);
+	}
+	
+	//수정
+	public void update(Employee employee) {
+		list.
+	}
+	
+	//삭제
+	public void delete()
+	
+	//조회(find)
+	
+	//검색(filter)
+	
+	//정렬
+}

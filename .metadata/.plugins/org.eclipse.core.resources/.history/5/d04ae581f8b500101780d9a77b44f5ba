@@ -1,0 +1,18 @@
+package day3.haksa;
+
+public class Student extends Member {
+
+	int grade;
+	public Student() {}
+
+	public Student(int no, String name, int grade) {
+		this.grade = grade;
+		this.no = no;
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return "Member [no=" + no + ", name=" + name + "]";
+	}
+}

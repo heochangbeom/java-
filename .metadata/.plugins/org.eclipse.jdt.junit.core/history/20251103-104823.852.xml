@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FileCopyTest (2)" project="javawork" tests="4" started="4" failures="0" errors="1" ignored="3">
+  <testsuite name="day4.FileCopyTest" time="0.032" displayname="FileCopyTest" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]">
+    <testcase name="copy" classname="day4.FileCopyTest" time="0.0" ignored="true" displayname="copy" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:copy(day4.FileCopyTest)]"/>
+    <testcase name="copy2" classname="day4.FileCopyTest" time="0.0" ignored="true" displayname="copy2" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:copy2(day4.FileCopyTest)]"/>
+    <testcase name="스캐너입력" classname="day4.FileCopyTest" time="0.032" displayname="스캐너입력" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:스캐너입력(day4.FileCopyTest)]">
+      <error>java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1&#13;
+	at day4.FileCopyTest.스캐너입력(FileCopyTest.java:68)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="버퍼입력" classname="day4.FileCopyTest" time="0.0" ignored="true" displayname="버퍼입력" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:버퍼입력(day4.FileCopyTest)]"/>
+  </testsuite>
+</testrun>

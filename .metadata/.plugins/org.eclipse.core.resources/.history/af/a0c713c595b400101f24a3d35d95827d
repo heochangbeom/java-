@@ -1,0 +1,17 @@
+package day1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class 셋 {
+	public static void main(String[] args) {
+		
+		Set<String> score = new HashSet<>();
+		
+		score.add("사과");
+		score.add("사과");
+		score.add("바나나");
+		
+		System.out.println(score);
+	}
+}

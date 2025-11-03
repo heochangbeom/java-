@@ -1,0 +1,20 @@
+package day4;
+
+import java.util.Scanner;
+
+public class ExceptionTest {
+	public static int menuInput() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("가위(1), 바위(2), 보(3), 종료(0): ");
+		int user;
+			user = sc.nextInt();
+		return user;
+	}
+	
+	public static void main(String[] args) {
+		int menu = menuInput();
+		System.out.println(menu);
+		System.out.println("the end");
+	}
+	
+}

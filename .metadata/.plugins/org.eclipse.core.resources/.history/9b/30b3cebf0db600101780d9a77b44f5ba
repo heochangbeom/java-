@@ -1,0 +1,10 @@
+package day3.remotecontroll;
+
+public interface RemoteControl {
+
+	public interface RemoteControl {
+		
+		public static final int MAX_VOLUME;
+	}
+	
+}

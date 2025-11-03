@@ -1,0 +1,13 @@
+package day1;
+
+public class 문자열형변환 {
+	public static void main(String[] args) {
+		String strAge = "20";
+		int age = Integer.parseInt(strAge);
+		
+		System.out.println(strAge);
+		
+		
+		
+	}
+}

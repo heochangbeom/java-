@@ -1,0 +1,9 @@
+package day4;
+
+public class Job2 implements new Runnable() {
+	public void run() {
+		
+	}
+} {
+
+}

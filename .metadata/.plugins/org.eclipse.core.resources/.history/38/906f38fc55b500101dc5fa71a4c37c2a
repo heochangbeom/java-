@@ -1,0 +1,19 @@
+package day2;
+
+public class CalcuratorTest {
+	public static void main(String[] args) {
+		Calcurator cal = new Calcurator(5, 6);
+		cal.add();
+		System.out.println(cal.result);
+		
+		cal.mul();
+		System.out.println(cal.result);	
+		
+		// 원면적
+		CircleArea circleArea = new CircleArea();
+		circleArea.calArea();
+		//circleArea.area = 10;
+		System.out.println(circleArea.getArea());
+		
+	}
+}

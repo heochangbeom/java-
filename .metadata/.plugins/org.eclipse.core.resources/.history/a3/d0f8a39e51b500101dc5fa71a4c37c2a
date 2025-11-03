@@ -1,0 +1,21 @@
+package day2;
+
+public class circle {
+	//필드
+		int radius;
+		double pie = Math.PI;
+		
+		//생성자
+		public circle() {}
+		public circle(int radius) {
+			this.radius = radius;
+		}
+		
+		//메서드
+		public void add() {
+			result = n1 + n2;
+		}
+		public void mul() {
+			result = n1 * n2;
+		}
+}

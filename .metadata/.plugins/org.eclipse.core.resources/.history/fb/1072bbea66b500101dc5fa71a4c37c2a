@@ -1,0 +1,8 @@
+package day2;
+
+public class StringUtilTest {
+	public static void main(String[] args) {
+		StringUtil.getYear("19900801");
+		System.out.println(year);
+	}
+}

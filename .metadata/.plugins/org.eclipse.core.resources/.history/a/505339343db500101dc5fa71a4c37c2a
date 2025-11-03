@@ -1,0 +1,12 @@
+package day2;
+
+public class Student {
+	
+	int no;
+	String name;
+	String addr;
+	
+	void addLecture() {
+		System.out.println("수강신청완료");
+	}
+}

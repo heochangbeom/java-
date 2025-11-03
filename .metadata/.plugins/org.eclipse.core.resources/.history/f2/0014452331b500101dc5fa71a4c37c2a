@@ -1,0 +1,36 @@
+package day2;
+
+public class MeThodTest {
+	
+	public static void main(String[] args) {\
+		printHead(); // 매개변수 X 리턴 X
+		printString("menu");
+		printString("header");
+		
+		sum(5, 4);
+	}
+	
+	static void sum(int first, int second) {
+		int result = first * second;
+		return result;
+	}
+	
+	//중복되는 코드 => 메서드
+	static void printHead() {
+		System.out.println("=============");
+		System.out.println("===hearder===");
+		System.out.println("=============");
+	}
+	
+	static void pirntFooter() {
+		System.out.println("============");
+		System.out.println("===footer===");
+		System.out.println("============");
+	}
+	
+	static void printString(String str) {
+		System.out.println("============");
+		System.out.println("==="+ str +"===");
+		System.out.println("============");
+	}
+}

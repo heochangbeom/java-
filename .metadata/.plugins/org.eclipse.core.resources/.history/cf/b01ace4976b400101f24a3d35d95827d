@@ -1,0 +1,19 @@
+package day1;
+
+public class 배열과반복문 {
+	public static void main(String[] args) {
+		//성적 5개
+		int[] score = {5,4,3,5,2};
+		
+		//성적 출력
+		for(int i= 0; i < score.length; i++) {
+			System.out.print(score[i]);
+			
+			if ( 3 < score[i] ) {
+				System.out.println("통과");
+			} else {
+				System.out.println("불합격");
+			}
+		}
+	}
+}

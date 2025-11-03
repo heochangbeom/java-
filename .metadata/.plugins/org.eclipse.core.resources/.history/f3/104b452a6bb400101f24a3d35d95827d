@@ -1,0 +1,13 @@
+package day1;
+
+public class 문자열형변환 {
+	public static void main(String[] args) {
+		String strAge = "20";
+		int age = strAge;
+		
+		byte value = Byte.parseByte(strAge);
+		int value = Integer.parseByte(strAge);
+		long value = Long.parseByte(strAge);
+		double value = Double.parseByte(strAge);
+	}
+}

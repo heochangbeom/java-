@@ -1,0 +1,15 @@
+package day1;
+
+import java.util.ArrayList;
+
+public class 리스트 {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		
+		//추가
+		list.add("사과");
+		list.add("키위");
+		list.add("딸기");
+		System.out.println(list);
+	}
+}

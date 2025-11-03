@@ -1,0 +1,12 @@
+package day4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import day3.emp.Employee;
+
+public class EmpSalary {
+	
+	String filename;
+	List<Employee> list = new ArrayList<>();
+}

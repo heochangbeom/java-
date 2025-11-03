@@ -1,0 +1,63 @@
+package day4;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
+
+import day3.emp.Employee;
+
+/* 사원 급여 합계 계산
+ * 클래스
+ * data(필드)
+ * 		List
+ * 		filename
+ * 
+ * 기능(메서드)
+ * 		List 초기화
+ * 		급여계산
+ * 		정렬
+ * 		출력
+ * */
+
+public class EmpSalarySum {
+	public static void main(String[] args) throws FileNotFoundException {
+		// emp.txt
+		// 1. scanner
+		Scanner scanner = new Scanner(new File("c:/Temp/emp.txt"));
+		List<Employee> list = new ArrayList<>();
+		
+		// 2. 라인만큼 반복문
+		int salaryresult = 0;
+		while (scanner.hasNext()) {
+			String emp = scanner.nextLine();
+			String[] empLine = emp.split(",");
+			
+			// 3. 사번, 이름, 급여
+			int id= Integer.parseInt(empLine[0]);
+			String Name = empLine[1];
+			long sal = Long.parseLong(empLine[7]);
+			list.add(new Employee(id, Name, sal));
+			
+			salaryresult += sal;
+
+			Comparator<Employee> compare =  (o1, o2) -> (int)(o1.getSalary() - o2.getSalary()) ;
+			list.sort(compare);
+			for(Employee emp1 : list) {
+				System.out.println(emp1);
+			}
+			
+			//스트림
+			list.stream()
+				.sorted(compare)
+				.forEach(e -> System.out.println(e) );
+//			.forEach(System.out::println);
+				
+		}
+		// 4. 급여합계 출력
+		System.out.println("급여합계: " + salaryresult);
+
+	}
+}

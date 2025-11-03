@@ -1,0 +1,7 @@
+package day1;
+
+public class 배열과반복문 {
+	public static void main(String[] args) {
+		int[] arr = {1,2,3}
+	}
+}

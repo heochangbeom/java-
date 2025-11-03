@@ -1,0 +1,8 @@
+package day2;
+
+/*
+static(정적) 필드, 메서드
+*/
+public class StaticTest {
+
+}

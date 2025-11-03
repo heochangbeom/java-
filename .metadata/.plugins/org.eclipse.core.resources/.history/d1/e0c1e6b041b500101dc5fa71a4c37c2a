@@ -1,0 +1,13 @@
+package day2;
+
+public class ProFessor {
+	
+	int no;
+	String name;
+	String addr;
+	int roomNo;
+	
+	//
+	
+	
+}

@@ -1,0 +1,22 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class 로또번호 {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		
+		while(list.size() < 6) {
+			int lotto = (int)(Math.random()*3) + 1; 
+			
+			for(let num : lotto) {
+				list.add(num);
+			}
+			
+		}
+		
+		
+	}//main
+}//class

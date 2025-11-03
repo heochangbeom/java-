@@ -1,0 +1,16 @@
+package day4;
+
+import java.util.Scanner;
+
+public class ExceptionTest {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("가위(1), 바위(2), 보(3), 종료(0): ");
+		try {
+		int user = sc.nextInt();
+		} catch(Exception e ) { }
+		System.out.println(user);
+		
+		System.out.println("the end");
+	}
+}

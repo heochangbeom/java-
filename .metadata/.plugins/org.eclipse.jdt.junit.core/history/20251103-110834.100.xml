@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FileTest" project="javawork" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="day4.FileTest" time="0.008" displayname="FileTest" uniqueid="[engine:junit-jupiter]/[class:day4.FileTest]">
+    <testcase name="test1" classname="day4.FileTest" time="0.008" displayname="폴더목록조회" uniqueid="[engine:junit-jupiter]/[class:day4.FileTest]/[method:test1()]"/>
+  </testsuite>
+</testrun>

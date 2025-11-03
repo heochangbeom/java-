@@ -1,0 +1,16 @@
+package day3.haksa;
+
+import java.util.ArrayList;
+
+//패키지, import
+public class Main {
+	public static void main(String[] args) {
+		Member student 	= new Student();
+		Member professor	= new ProFessor();
+		
+		ArrayList<Member> list = new ArrayList<Member>();
+		list.add(student);
+		list.add(professor);
+		
+	}
+}

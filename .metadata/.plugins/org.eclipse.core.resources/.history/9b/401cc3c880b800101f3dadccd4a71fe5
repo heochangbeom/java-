@@ -1,0 +1,32 @@
+package day4;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+/* 사원 급여 합계 계산*/
+public class EmpSalarySum {
+	public static void main(String[] args) throws FileNotFoundException {
+		//emp.txt
+		//1. scanner
+		Scanner scanner = new Scanner(new File("c:/Temp/emp.txt"));
+		
+		//2. 라인만큼 반복문
+		while(scanner.hasNext()) {
+			String emp = scanner.nextLine();
+			//Steven 이름 출력
+			
+			//split -> String[]
+			String[] empNumber = emp.split(",");
+			String[] empName = emp.split(",");
+			String[] empSalary = emp.split(",");
+			System.out.println(emp);
+//			System.out.println("이름: " + empName[1]);
+		}
+		
+		
+		//3. 사번, 이름, 급여
+		
+		//4. 급여합계 출력
+	}
+}

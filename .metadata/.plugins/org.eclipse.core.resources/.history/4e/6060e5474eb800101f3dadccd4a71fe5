@@ -1,0 +1,21 @@
+package day4;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+public class FileCopyTest {
+		
+		@Test
+		@DisplayName("파일복사")
+		public void copy() throws IOExceeption {
+			FileOutputStream fw = new FileOutputStream("c:/Temp/data.txt");
+		
+		int readByte;
+		while((readByte = System.in.read()) != -1 ) {		
+			fw.write(readByte);
+	}
+		fw.close();
+				
+	}
+	}
+}

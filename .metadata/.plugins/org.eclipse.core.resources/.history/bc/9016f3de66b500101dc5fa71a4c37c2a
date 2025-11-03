@@ -1,0 +1,15 @@
+package day2;
+
+public class StringUtil {
+
+	//주민번호로 출생년도 추출
+	public static String getYear(String id) {
+		//id가 없으면 빈값 넘겨줌.
+		if (id == null) {
+			return "";
+		}
+		String result == id.substring(0, 4);
+		return result;
+	}
+	
+}

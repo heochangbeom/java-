@@ -1,0 +1,8 @@
+package day3.shape;
+
+public class Main {
+	public static void main(String[] args) {
+		Shape s = new Line();
+		
+	}
+}

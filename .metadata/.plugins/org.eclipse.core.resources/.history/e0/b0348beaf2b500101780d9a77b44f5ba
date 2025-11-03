@@ -1,0 +1,13 @@
+package day3.haksa;
+
+import day2.ProFessor;
+import day2.Student;
+
+//패키지, import
+public class Main {
+	public static void main(String[] args) {
+		Student student;
+		
+		ProFessor professor;
+	}
+}

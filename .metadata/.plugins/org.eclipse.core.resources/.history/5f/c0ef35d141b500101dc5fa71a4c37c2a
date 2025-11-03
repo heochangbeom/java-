@@ -1,0 +1,21 @@
+package day2;
+
+public class ProFessor {
+	
+	int no;
+	String name;
+	String addr;
+	int roomNo;
+	//기본생성자(매개변수가 없는)
+	//생성자가 하나도 선언된게 없으면 컴파일러가 자동으로 추가해줌.
+	
+	
+	public ProFessor(int no, String name, String addr) {
+		super();
+		this.no = no;
+		this.name = name;
+		this.addr = addr;
+	}
+	
+	
+}

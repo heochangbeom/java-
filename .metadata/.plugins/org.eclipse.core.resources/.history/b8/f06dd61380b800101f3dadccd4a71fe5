@@ -1,0 +1,15 @@
+package day4;
+
+/* 사원 급여 합계 계산*/
+public class EmpSalarySum {
+	public static void main(String[] args) {
+		//emp.txt
+		//1. scanner
+		
+		//2. 라인만큼 반복문
+		
+		//3. 사번, 이름, 급여
+		
+		//4. 급여합계 출력
+	}
+}

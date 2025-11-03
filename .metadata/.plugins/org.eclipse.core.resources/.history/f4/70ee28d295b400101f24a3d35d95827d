@@ -1,0 +1,28 @@
+package day1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class 셋 {
+	public static void main(String[] args) {
+		
+		Set<String> score = new HashSet<>();
+		
+		score.add("사과");
+		score.add("사과");
+		score.add("바나나");
+		
+		System.out.println(score);
+		
+		System.out.println(score);
+		
+		//전체조회 index 없음
+		Iterator<String> iter = score.iterator();
+		while(iter.hasNext()) {
+			String f = iter.next();
+			System.out.println(item);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package day4;
+
+import java.time.LocalDate;
+
+public class DateTest {
+	public static void main(String[] args) {
+		LocalDate date = LocalDate.now();
+		
+		LocalDate birth = //LocalDate.of(2025, 5, 25);
+						  LocalDate.parse("2025-05-25")
+	}
+}

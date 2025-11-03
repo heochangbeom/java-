@@ -1,0 +1,17 @@
+package day4;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.Period;
+
+public class DateTest {
+	public static void main(String[] args) {
+		LocalDate date = LocalDate.now();
+		
+		LocalDate birth = //LocalDate.of(2025, 5, 25);
+						  LocalDate.parse("2025-05-25");
+		
+		Period duration = Period.between(birth, date);
+		System.out.println("내가 살아온 날은 " + Period.getYears() );
+	}
+}

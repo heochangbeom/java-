@@ -1,0 +1,12 @@
+package day4;
+
+public class EmpSalaryTest {
+	public static void main(String[] args) {
+		EmpSalary empSalary = new EmpSalary();
+		empSalary.init();
+		empSalary.cal();
+		empSalary.sort();
+		empSalary.print();
+		empSalary.sum
+	}
+}

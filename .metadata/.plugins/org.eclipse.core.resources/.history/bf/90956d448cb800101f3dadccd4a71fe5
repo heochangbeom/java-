@@ -1,0 +1,31 @@
+package day4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import day3.emp.Employee;
+
+public class EmpSalary {
+
+	String filename;
+	List<Employee> list = new ArrayList<>();
+
+	// 초기화
+	public void init() {
+
+	}
+
+	// 급여계산
+	public void cal() {
+
+	}
+
+	public void sort() {
+
+	}
+
+	public void print() {
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package day3.shape;
+
+public class Line extends Shape {
+	
+	public Line(int sx, int sy, int ex, int ey) {
+		super( sx,  sy,  ex,  ey);
+	}
+}

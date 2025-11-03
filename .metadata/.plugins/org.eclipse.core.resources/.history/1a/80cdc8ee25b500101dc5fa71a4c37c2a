@@ -1,0 +1,9 @@
+package game;
+
+//1. 클래스(설계도) 선언
+public class RockPaperScissors {
+		public void start() {
+			
+		}
+
+}

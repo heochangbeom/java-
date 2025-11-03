@@ -1,0 +1,6 @@
+package day3.haksa;
+
+public class Student extends Member {
+
+	int grade;
+}

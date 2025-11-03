@@ -1,0 +1,20 @@
+package day2;
+
+//원을 면적을 계산하는 클래스
+public class CircleArea {
+	//필드
+	int radius;
+	double area;
+	
+	//생성자
+	public CircleArea() {}
+	public CircleArea(int radius) {
+		this.radius = radius;
+	}
+	
+	//메서드
+	public void calArea(){
+		area = radius * radius * Math.PI;
+	}
+}
+

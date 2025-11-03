@@ -1,0 +1,13 @@
+package day3.emp;
+
+import java.util.Arrays;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		List<Employee> list = Arrays.asList(
+				new Employee(100, "고길동", 2000),)
+				new Employee(100, "고길동", 2000),)
+new Employee(100, "고길동", 2000),)
+	}
+}

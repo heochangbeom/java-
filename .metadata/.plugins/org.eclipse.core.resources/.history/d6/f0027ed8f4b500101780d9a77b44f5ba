@@ -1,0 +1,8 @@
+package day3.haksa;
+
+public class ProFessor extends Member{
+	int no;
+	String name;
+	String addr;
+	int salary;
+}

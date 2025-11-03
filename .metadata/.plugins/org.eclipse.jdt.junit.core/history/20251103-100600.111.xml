@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FileCopyTest (1)" project="javawork" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="day4.FileCopyTest" time="0.002" displayname="FileCopyTest" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]">
+    <testcase name="copy" classname="day4.FileCopyTest" time="0.0" displayname="copy" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:copy(day4.FileCopyTest)]"/>
+    <testcase name="copy2" classname="day4.FileCopyTest" time="0.002" displayname="copy2" uniqueid="[engine:junit-vintage]/[runner:day4.FileCopyTest]/[test:copy2(day4.FileCopyTest)]"/>
+  </testsuite>
+</testrun>

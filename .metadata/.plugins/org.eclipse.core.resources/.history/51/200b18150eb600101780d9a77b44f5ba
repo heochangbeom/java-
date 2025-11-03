@@ -1,0 +1,14 @@
+package day3.remotecontroll;
+
+public interface RemoteControl {
+		
+	//상수(final)
+	public static final int MAX_VOLUME = 10;
+	int MIN_VOLUME = 0;
+	
+	//추상메서드
+	public void surnOn();
+	public void turnOff();
+	public void setVolume(int volume);
+	
+	}

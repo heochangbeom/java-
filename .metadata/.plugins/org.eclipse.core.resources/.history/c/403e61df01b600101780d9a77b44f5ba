@@ -1,0 +1,16 @@
+package day3.shape;
+
+public class shape {
+	int sx;
+	int sy;
+	int ex;
+	int ey;
+	int w;
+	
+	@Override
+	public String toString() {
+		return "shape [sx=" + sx + ", sy=" + sy + ", ex=" + ex + ", ey=" + w + ", w="
+			
+	}
+	
+}

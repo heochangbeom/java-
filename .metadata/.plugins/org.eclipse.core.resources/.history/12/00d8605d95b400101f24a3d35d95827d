@@ -1,0 +1,13 @@
+package day1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class 셋 {
+	public static void main(String[] args) {
+		
+		Set<Integer> score = new HashSet<>();
+		
+		score.add(null);
+	}
+}

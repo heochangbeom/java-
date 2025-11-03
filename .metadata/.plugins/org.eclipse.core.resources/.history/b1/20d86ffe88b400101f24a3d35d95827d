@@ -1,0 +1,46 @@
+package day1;
+
+import java.util.Scanner;
+
+public class 숫자맞추기 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int user;
+		int computer;
+		int winCnt = 0;
+		int drawCnt = 0;
+		int loseCnt = 0;
+		
+		//반복문
+		while(true) {
+			//메뉴출력
+			System.out.println("숫자를 입력해 주십시오");
+			
+			//사용자 값을 입력받고
+			user = scanner.nextString();
+			
+			computer = (int)(Math.random()*100) + 1;
+			
+			if ( user < computer ) {
+				System.out.println("나:" + user + ", 컴퓨터" + computer + ", 결과:무승부");
+				drawCnt++;
+				continue;
+			}
+			
+			if ( (user+1)%3 == computer%3) {
+				System.out.println("나:" + user + ", 컴퓨터" + computer + ", 결과:패배");
+				loseCnt++;
+				continue;
+			}
+			
+			if ( (user+2)%3 == computer%3) {
+				System.out.println("나:" + user + ", 컴퓨터" + computer + ", 결과:승리");
+				winCnt++;
+				continue;
+				
+			}
+			
+		
+	}
+} //main
+} //class

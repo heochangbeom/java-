@@ -1,0 +1,6 @@
+package haksa;
+
+public class 학생 extends 멤버 {
+    private int 학번;
+
+}

@@ -1,0 +1,8 @@
+package day4;
+
+public class IuputStreamTest {
+	
+	public static void main(String[] args) {
+		FileOutputStream fw = new FileOutPutStream("c:/Temp/data.txt");
+	}
+}

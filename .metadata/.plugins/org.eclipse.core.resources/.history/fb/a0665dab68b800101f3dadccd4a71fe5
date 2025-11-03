@@ -1,0 +1,9 @@
+package day4;
+
+public class MenuException extends Exception {
+
+	public MenuException(String string) {
+		super(string);
+	}
+	
+}

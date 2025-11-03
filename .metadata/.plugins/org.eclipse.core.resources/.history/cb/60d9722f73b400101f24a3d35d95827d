@@ -1,0 +1,12 @@
+package day1;
+
+public class 반복문 {
+	public static void main(String[] args) {
+		//
+		for(int i=0; i<32; i++) {
+			char alphabet = 65;
+			System.out.println((char)(alphabet + i));
+			
+		}
+	}
+}

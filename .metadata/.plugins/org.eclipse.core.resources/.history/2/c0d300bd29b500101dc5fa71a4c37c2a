@@ -1,0 +1,28 @@
+package day2;
+
+public class MeThodTest {
+	
+	public static void main(String[] args) {
+		printHead("menu");
+		pirntFooter("header");
+	}
+	
+	//중복되는 코드 => 메서드
+	static void printHead() {
+		System.out.println("=============");
+		System.out.println("===hearder===");
+		System.out.println("=============");
+	}
+	
+	static void pirntFooter() {
+		System.out.println("============");
+		System.out.println("===footer===");
+		System.out.println("============");
+	}
+	
+	static void printString(String str) {
+		System.out.println("============");
+		System.out.println("==="+ str +"===");
+		System.out.println("============");
+	}
+}
