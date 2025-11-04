@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: admin
+Build-Jdk: 17.0.11
+Class-Path: lib/spring-context-5.3.39.jar lib/spring-aop-5.3.39.jar lib/
+ spring-beans-5.3.39.jar lib/spring-core-5.3.39.jar lib/spring-jcl-5.3.3
+ 9.jar lib/spring-expression-5.3.39.jar lib/spring-test-5.3.39.jar
+Main-Class: com.factory.Main
+Created-By: Maven Integration for Eclipse
+
