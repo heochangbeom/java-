@@ -30,10 +30,27 @@
 	
 	<insert id="update">
 		UPDATE TBL_BOARD SET TITLE=#{title} , CONTENT=#{content}
-			WHERE BNO=#{bno}
+	     WHERE BNO=#{bno}
 	</insert>
 	
-	<delete id="delete">
-		DELETE FROM tbl_board WHERE BNO=#{bno}
+	<!-- 단건조회 -->
+	<select id="getBoard">
+		select *
+		  from tbl_board
+		 where bno = #{bno}
+		</select>
+		
+	<select id="count">
+		select *
+		  from tbl_board
+		 where bno = #{bno}
+		</select>
+	
+	<delete id="delete" statementType="CALLABLE" parameterType="Map">
+	{ call 
+		PROC_BOARD_DELETE( 
+				#{bno}, 
+				#{result, mode=OUT, jdbcType=VARCHAR, javaType=string} ) 
+		}
 	</delete>
 </mapper>

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+하이!!!
+<img src="/file/고양이.jpg" width="300">
 </body>
 </html>

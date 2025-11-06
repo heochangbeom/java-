@@ -19,7 +19,7 @@
 			<div class="row mt-5">
 				<div class="col">${board.bno}</div>
 				<div class="col">${board.writer}</div>
-				<div class="col">${board.title}</div>
+				<div class="col"><a href="/board/update?bno=${board.bno}">${board.title}</div>
 			</div>
 
 			<div class="row">
