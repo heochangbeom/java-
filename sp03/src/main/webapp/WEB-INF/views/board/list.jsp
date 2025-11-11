@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="my" tagdir="/WEB-INF/tags" %> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +16,21 @@
 </head>
 
 <body>
+${header["user-agent"]}
+<hr>
+쿠키: ${cookie.JSESSIONID.value}
+<hr>
+<div class="container-lg">
+<my:header></my:header>
+<my:search/>
+
 	<div class="container">
-		<c:forEach items="${list}" var="board">
+	<h3>게시글 목록</h3>
+	<div>총게시글수 ${fn:length(List)}	</div>
+		<c:forEach items="${list}" var="board" varStatus="status">
+			<c:if test="${status.first}"><div>목록시작</div></c:if>
 			<div class="row mt-5">
+				<div class="col">${status.count}</div>
 				<div class="col">${board.bno}</div>
 				<div class="col">${board.writer}</div>
 				<div class="col"><a href="/board/update?bno=${board.bno}">${board.title}</div>
