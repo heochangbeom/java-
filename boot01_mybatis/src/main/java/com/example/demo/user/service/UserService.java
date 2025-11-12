@@ -12,7 +12,6 @@ public interface UserService {
 	UserVO getUser(String loginId);
 	
 	//권한조회
-	UserVO getRole() 
 	
 	//전체조회
 }
